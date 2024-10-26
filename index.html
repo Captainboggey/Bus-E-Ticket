@@ -1,163 +1,237 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>দয়াল পরিবহন </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>দয়াল পরিবহন</title>
     <!-- daisyuI and tailwind -->
-     
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- css link -->
- <link rel="stylesheet" href="/style/style.css">
 
-
-</head>
-<body class="font-raleway">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body class="font-raleway">
     <header>
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Destination</a></li>
-                    <li><a>Search</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl text-[#1DD100]">দয়াল পরিবহন </a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Destination</a></li>
-                    <li><a>Search</a></li>
-                    
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn text-[#1DD100] bg-[#1DD1001A] py-3 px-7 font-extrabold text-xl">Bus <img src="/images/bus-icon.png" alt=""> </a>
-                  
-                </div>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
               </div>
-        </nav>
-
-        <!-- banner starts here -->
-         <section class="mt-10  ">
-            <div class="hero bg-[url('/images/banner.png')]  min-h-screen ">
-                <div class="hero-content text-center">
-                  <div class="">
-                    <h1 class="text-5xl text-white font-bold">সাইকেল আমার হাওয়ার বেগে চলে উইরা উইরা </h1>
-                    <br><br>
-                    <h1 class="text-5xl font-bold text-[#1DD100]">দয়াল পরিবহন</h1>
-                    <p class="py-6 text-white">
-                        কোনও  থামা থামি নাই গাড়ি হাওয়ায় থাকে  
-                    </p>
-                    <button class="btn btn-primary text-black bg-[#1DD100] border-none py-4 px-7">Buy Ticket</button>
-                  </div>
-                </div>
-              </div>
-         </section>
-         <section class="font-inter flex  flex-col lg:flex-row gap-3  justify-center   ">
-            <!-- 1 -->
-            <div class="card card-side bg-base-100 shadow-xl border-2 border-b-[#1DD100]">
-                <figure>
-                  <img
-                    src="/images/people.png"
-                    alt="Movie" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title text-3xl font-extrabold">500k+</h2>
-                  <p>Registered Users</p>
-                  
-                </div>
-              </div>
-            <!-- 2 -->
-            <div class="card card-side bg-base-100 shadow-xl border-2 border-b-[#1DD100]">
-                <figure>
-                  <img
-                    src="/images/ticket-cupon.png"
-                    alt="Movie" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title text-3xl font-extrabold">1.7 lacks+</h2>
-                  <p>Ticket sold</p>
-                  
-                </div>
-              </div>
-            <!-- 3 -->
-            <div class="card card-side bg-base-100 shadow-xl border-2 border-b-[#1DD100]">
-                <figure>
-                  <img
-                    src="/images/stoppage.png"
-                    alt="Movie" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title text-3xl font-extrabold">80k+</h2>
-                  <p>Rental partners</p>
-                  
-                </div>
-              </div>
-              
-
-         </section>
-         <!-- coupon section -->
-
-         <section class="mt-14 flex flex-col lg:flex-row gap-5 justify-center font-inter">
-            <!-- 15% off -->
-             
-             
-            <div class="flex bg-[#FFBF0F] g rounded-3xl">
-                <div class="  p-10 space-y-2">
-                    <h1 class="text-3xl font-extrabold">15% OFF</h1>
-                    <p class="font-bold">on your next purchase</p>
-                    <p>use by January 2024</p>
-                </div>
-                <div><img src="/images/cupon-devider.png" alt=""></div>
-
-                <div class="p-20">
-                    <p>MessiGay</p>
-                    <p>Coupon Code</p>
-                </div>
-            
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl text-[#1DD100]">দয়াল পরিবহন </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn text-[#1DD100] bg-[#1DD1001A] py-3 px-7 font-extrabold text-xl"
+              >Bus <img src="/images/bus-icon.png" alt="" />
+            </a>
+          </div>
         </div>
-            <!-- 20% off -->
-            <div class="flex bg-[#F78C9C] g rounded-3xl">
-                <div class="  p-10 space-y-2">
-                    <h1 class="text-3xl font-extrabold">20% OFF</h1>
-                    <p class="font-bold">on your next purchase</p>
-                    <p>use by January 2024</p>
-                </div>
-                <div><img src="/images/cupon-devider.png" alt=""></div>
+      </nav>
 
-                <div class="p-20">
-                    <p>CR7BOSS</p>
-                    <p>Coupon Code</p>
-                </div>
-            
+      <!-- banner starts here -->
+      <section class="mt-10">
+        <div class="hero bg-[url('/images/banner.png')] min-h-screen">
+          <div class="hero-content text-center">
+            <div class="">
+              <h1 class="text-5xl text-white font-bold">
+                সাইকেল আমার হাওয়ার বেগে চলে উইরা উইরা
+              </h1>
+              <br /><br />
+              <h1 class="text-5xl font-bold text-[#1DD100]">দয়াল পরিবহন</h1>
+              <p class="py-6 text-white">কোনও থামা থামি নাই গাড়ি হাওয়ায় থাকে</p>
+              <button
+                class="btn btn-primary text-black bg-[#1DD100] border-none py-4 px-7"
+              >
+                Buy Ticket
+              </button>
+            </div>
+          </div>
         </div>
-         </section>
+      </section>
+      <section
+        class="font-inter flex flex-col lg:flex-row gap-3 justify-center"
+      >
+        <!-- 1 -->
+        <div
+          class="card card-side bg-base-100 shadow-xl border-2 border-b-[#1DD100]"
+        >
+          <figure>
+            <img src="/images/people.png" alt="Movie" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-3xl font-extrabold">500k+</h2>
+            <p>Registered Users</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="card card-side bg-base-100 shadow-xl border-2 border-b-[#1DD100]"
+        >
+          <figure>
+            <img src="/images/ticket-cupon.png" alt="Movie" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-3xl font-extrabold">1.7 lacks+</h2>
+            <p>Ticket sold</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div
+          class="card card-side bg-base-100 shadow-xl border-2 border-b-[#1DD100]"
+        >
+          <figure>
+            <img src="/images/stoppage.png" alt="Movie" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-3xl font-extrabold">80k+</h2>
+            <p>Rental partners</p>
+          </div>
+        </div>
+      </section>
+      <!-- coupon section -->
 
+      <section
+        class="mt-14 flex flex-col lg:flex-row gap-5 justify-center font-inter"
+      >
+        <!-- 15% off -->
 
+        <div class="flex bg-[#FFBF0F] g rounded-3xl">
+          <div class="p-10 space-y-2">
+            <h1 class="text-3xl font-extrabold">15% OFF</h1>
+            <p class="font-bold">on your next purchase</p>
+            <p>use by January 2024</p>
+          </div>
+          <div><img src="/images/cupon-devider.png" alt="" /></div>
+
+          <div class="p-20">
+            <p>MessiGay</p>
+            <p>Coupon Code</p>
+          </div>
+        </div>
+        <!-- 20% off -->
+        <div class="flex bg-[#F78C9C] g rounded-3xl">
+          <div class="p-10 space-y-2">
+            <h1 class="text-3xl font-extrabold">20% OFF</h1>
+            <p class="font-bold">on your next purchase</p>
+            <p>use by January 2024</p>
+          </div>
+          <div><img src="/images/cupon-devider.png" alt="" /></div>
+
+          <div class="p-20">
+            <p>CR7BOSS</p>
+            <p>Coupon Code</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="flex justify-center mt-20">
+        <button
+          class="btn btn-primary text-[#1DD100] bg-white border-none border-[1px] border-green-700 text-xl"
+        >
+          See All Offers
+        </button>
+      </div>
     </header>
-    
-</body>
+
+    <main class=" bg-[#F7F8F8] rounded-3xl border-2 border-[#1DD100]">
+      <div class="flex-col text-center pt-20 space-y-5">
+        <h1 class="font-extrabold text-4xl">দয়াল পরিবহন</h1>
+        <p>
+          Yes, you can run unit tests and view the results directly within the
+          app. The integrated testing features allow for a streamlined .
+        </p>
+      </div>
+
+      <section class="font-inter flex justify-center  ">
+        <div class="flex justify-center items-center bg-white mt-20 w-[1170px]">
+        <div class="space-y-10 ">
+          <div class="flex ">
+            <div class="flex">
+              <div>
+                <img src="/images/bus-logo.png" alt="" />
+              </div>
+              <div>
+                <h1>দয়াল পরিবহন</h1>
+                <p>Coach-009-WEB ! AC_Business</p>
+              </div>
+            </div>
+            <div>
+              <button class="btn">
+                <img src="/images/seat-green.png" alt="" />40 Seats Left
+              </button>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="table">
+              <!-- head -->
+
+              <tbody>
+                <!-- row 1 -->
+                <tr class="bg-base-200">
+                  <td>Route</td>
+                  <td>Dhaka-Sylhet</td>
+                </tr>
+                <!-- row 2 -->
+                <tr class="bg-base-200">
+                  <td>Depature Time</td>
+                  <td>9:00 PM</td>
+                </tr>
+                <!-- row 3 -->
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div>
+            <img src="/images/info-devider.png" alt="">
+        </div>
+        <div class="">
+            <img src="/images/fare.png" alt="">
+            <h1>550 Taka</h1>
+            <p>Per Seat</p>
+        </div>
+    </div>
+        
+      </section>
+    </main>
+  </body>
 </html>
